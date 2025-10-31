@@ -1,0 +1,207 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Eccentric Echoes" description="Embark on a psychedelic journey through the wild quirks of humanity, blending humor, insight, and futuristic vibes to uncover the extraordinary in the everyday.">
+  <!-- Hero Section -->
+  <div class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-purple-900 via-primary to-accent opacity-80"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-purple-500/20 to-transparent"></div>
+    <div class="container mx-auto px-4 py-32 relative z-10">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white via-accent to-white animate-pulse mb-6">
+          Eccentric Echoes
+        </h1>
+        <p class="text-2xl md:text-3xl font-bold text-white mb-10 tracking-wider">
+          Unveiling the Wild Side of Human Quirks with Humor and Insight
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-6">
+          <a href="#explore" class="px-8 py-4 bg-accent text-purple-900 font-bold text-xl rounded-full transform hover:scale-105 transition-all duration-300 hover:shadow-[0_0_25px_#32cd32] hover:rotate-3">
+            Explore the Chaos
+          </a>
+          <a href="#features" class="px-8 py-4 border-2 border-white text-white font-bold text-xl rounded-full transform hover:scale-105 transition-all duration-300 hover:bg-white hover:text-primary hover:-rotate-3">
+            Why We're Different
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-background to-transparent"></div>
+  </div>
+
+  <!-- Content Introduction -->
+  <section class="py-20 px-4 relative">
+    <div class="absolute top-0 left-0 w-full h-full opacity-10">
+      <div class="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-accent blur-3xl"></div>
+      <div class="absolute bottom-1/3 right-1/4 w-96 h-96 rounded-full bg-primary blur-3xl"></div>
+    </div>
+    
+    <div class="container mx-auto max-w-6xl relative z-10">
+      <div class="bg-gradient-to-br from-primary/20 to-accent/20 backdrop-blur-lg border border-primary/30 rounded-3xl p-8 md:p-12 shadow-2xl shadow-primary/20">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-accent to-white">
+              Journey Into the Extraordinary
+            </h2>
+            <div class="space-y-6 text-lg">
+              <p class="text-white/90">
+                Welcome to <span class="font-bold text-accent">Eccentric Echoes</span>, where the boundaries of the ordinary dissolve into a kaleidoscope of psychedelic futurism. Imagine a world where your weirdest habits aren't just quirks—they're portals to alternate realities, decoded with wit and wisdom.
+              </p>
+              <p class="text-white/90">
+                We're not your average blog; we're a cosmic carnival of thought, exploring the human condition through a lens of neon dreams and retro-futuristic flair.
+              </p>
+            </div>
+          </div>
+          <div class="relative">
+            <div class="absolute -inset-4 bg-gradient-to-r from-accent to-primary rounded-2xl blur-xl opacity-30 animate-pulse"></div>
+            <div class="relative bg-background/80 border border-primary/30 rounded-2xl p-8 h-full backdrop-blur-sm">
+              <div class="flex items-start mb-6">
+                <i class="fas fa-stars text-accent text-3xl mt-1 mr-4"></i>
+                <p class="text-xl font-bold text-white italic">
+                  "In a universe buzzing with conformity, we celebrate the eccentric."
+                </p>
+              </div>
+              <div class="flex justify-end">
+                <div class="w-16 h-1 bg-gradient-to-r from-transparent to-accent rounded-full"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-20 px-4">
+    <div class="container mx-auto max-w-6xl">
+      <div class="text-center mb-20">
+        <h2 class="text-5xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-white via-accent to-white">
+          Why Dive into the Echoes?
+        </h2>
+        <p class="text-xl text-white/80 max-w-3xl mx-auto">
+          In a universe buzzing with conformity, we celebrate the <span class="font-bold text-accent">eccentric</span>. From the absurd rituals of morning coffee addictions to the philosophical depths of why cats plot world domination, our content twists the mundane into mind-bending revelations.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Feature Card 1 -->
+        <div class="bg-gradient-to-br from-primary/30 to-transparent backdrop-blur-lg border border-primary/30 rounded-3xl p-8 transform hover:-translate-y-3 transition-all duration-500 hover:shadow-[0_0_30px_rgba(138,43,226,0.5)]">
+          <div class="w-16 h-16 rounded-full bg-accent/20 flex items-center justify-center mb-6">
+            <i class="fas fa-laugh-squint text-3xl text-accent"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-4">Humor-Infused Insights</h3>
+          <p class="text-white/80 mb-6">
+            We blend sharp wit with deep insights, transforming everyday eccentricities into cosmic comedies of human behavior.
+          </p>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-accent mt-1 mr-3"></i>
+              <span class="text-white/90">Absurd takes on ordinary rituals</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-accent mt-1 mr-3"></i>
+              <span class="text-white/90">Philosophical depth with a twist</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Feature Card 2 -->
+        <div class="bg-gradient-to-br from-accent/20 to-transparent backdrop-blur-lg border border-accent/30 rounded-3xl p-8 transform hover:-translate-y-3 transition-all duration-500 hover:shadow-[0_0_30px_rgba(50,205,50,0.5)]">
+          <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mb-6">
+            <i class="fas fa-brain text-3xl text-primary"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-4">Mind-Bending Perspectives</h3>
+          <p class="text-white/80 mb-6">
+            Our content reframes mundane experiences as cosmic phenomena, revealing hidden patterns in human behavior.
+          </p>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-primary mt-1 mr-3"></i>
+              <span class="text-white/90">Revealing the extraordinary in everyday</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-primary mt-1 mr-3"></i>
+              <span class="text-white/90">Retro-futuristic analytical lens</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Feature Card 3 -->
+        <div class="bg-gradient-to-br from-purple-900/30 to-transparent backdrop-blur-lg border border-purple-500/30 rounded-3xl p-8 transform hover:-translate-y-3 transition-all duration-500 hover:shadow-[0_0_30px_rgba(147,51,234,0.5)]">
+          <div class="w-16 h-16 rounded-full bg-accent/20 flex items-center justify-center mb-6">
+            <i class="fas fa-infinity text-3xl text-accent"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-4">Psychedelic Storytelling</h3>
+          <p class="text-white/80 mb-6">
+            We craft narratives that spiral through consciousness, blending science fiction with soul-searching revelations.
+          </p>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-accent mt-1 mr-3"></i>
+              <span class="text-white/90">Narrative journeys through quirks</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check-circle text-accent mt-1 mr-3"></i>
+              <span class="text-white/90">Neon-drenched futurism aesthetic</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="explore" class="py-20 px-4">
+    <div class="container mx-auto max-w-4xl">
+      <div class="bg-gradient-to-r from-primary to-purple-900 rounded-3xl p-12 text-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(50,205,50,0.2),transparent_70%)]"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(138,43,226,0.2),transparent_70%)]"></div>
+        <div class="relative z-10">
+          <h2 class="text-4xl md:text-5xl font-black mb-6 text-white">
+            Ready to Embrace the Chaos?
+          </h2>
+          <p class="text-xl text-white/90 mb-10 max-w-2xl mx-auto">
+            Join thousands of conscious rebels exploring the magnificent madness of human existence through our psychedelic lens.
+          </p>
+          <div class="flex flex-col sm:flex-row justify-center gap-6">
+            <a href="/articles" class="px-10 py-5 bg-accent text-purple-900 font-bold text-xl rounded-full transform hover:scale-105 transition-all duration-300 hover:shadow-[0_0_25px_#32cd32]">
+              Explore Articles
+            </a>
+            <a href="/subscribe" class="px-10 py-5 border-2 border-white text-white font-bold text-xl rounded-full transform hover:scale-105 transition-all duration-300 hover:bg-white hover:text-primary">
+              Get Weekly Echoes
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="py-20 px-4">
+    <div class="container mx-auto max-w-4xl">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-accent to-white">
+          What Our Echoes Say
+        </h2>
+      </div>
+      
+      <div class="bg-gradient-to-br from-primary/20 to-accent/10 backdrop-blur-lg border border-primary/30 rounded-3xl p-8 md:p-12">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="mb-8 md:mb-0 md:mr-10">
+            <div class="w-32 h-32 rounded-full bg-gradient-to-br from-accent to-primary flex items-center justify-center text-5xl text-white">
+              <i class="fas fa-user-astronaut"></i>
+            </div>
+          </div>
+          <div class="text-center md:text-left">
+            <blockquote class="text-2xl font-bold text-white italic mb-6">
+              "Eccentric Echoes transformed how I see my own weirdness. Now I embrace my quirks as cosmic gifts instead of social liabilities!"
+            </blockquote>
+            <div>
+              <p class="text-xl font-bold text-accent">Zara Quirky</p>
+              <p class="text-white/80">Professional Daydreamer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

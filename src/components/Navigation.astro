@@ -1,0 +1,67 @@
+---
+// Navigation.astro
+---
+
+<nav class="bg-gradient-to-r from-[#8a2be2] to-[#32cd32] shadow-lg">
+  <div class="container mx-auto px-4 py-4">
+    <div class="flex justify-between items-center">
+      <a href="/" class="text-2xl font-bold text-white tracking-wider transform hover:scale-105 transition-transform duration-300">Eccentric Echoes</a>
+      
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex gap-6">
+        <a href="/" class="text-white font-semibold hover:text-[#32cd32] hover:bg-white hover:px-3 hover:py-1 rounded-full transition-all duration-300 transform hover:rotate-3">Home</a>
+        <a href="/stories" class="text-white font-semibold hover:text-[#32cd32] hover:bg-white hover:px-3 hover:py-1 rounded-full transition-all duration-300 transform hover:-rotate-3">Stories</a>
+        <a href="/gallery" class="text-white font-semibold hover:text-[#32cd32] hover:bg-white hover:px-3 hover:py-1 rounded-full transition-all duration-300 transform hover:rotate-3">Gallery</a>
+        <a href="/about" class="text-white font-semibold hover:text-[#32cd32] hover:bg-white hover:px-3 hover:py-1 rounded-full transition-all duration-300 transform hover:-rotate-3">About</a>
+        <a href="/blog" class="text-white font-semibold hover:text-[#32cd32] hover:bg-white hover:px-3 hover:py-1 rounded-full transition-all duration-300 transform hover:rotate-3">Blog</a>
+      </div>
+      
+      <!-- Mobile Menu Button -->
+      <div class="md:hidden">
+        <button 
+          class="text-white text-2xl focus:outline-none transform hover:scale-125 transition-transform duration-300"
+          aria-label="Toggle menu"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Navigation (hidden by default) -->
+    <div class="md:hidden mt-4 hidden" id="mobile-menu">
+      <div class="flex flex-col gap-3 pb-4">
+        <a href="/" class="text-white font-semibold hover:text-[#32cd32] hover:bg-white hover:px-4 hover:py-2 rounded-full transition-all duration-300">Home</a>
+        <a href="/stories" class="text-white font-semibold hover:text-[#32cd32] hover:bg-white hover:px-4 hover:py-2 rounded-full transition-all duration-300">Stories</a>
+        <a href="/gallery" class="text-white font-semibold hover:text-[#32cd32] hover:bg-white hover:px-4 hover:py-2 rounded-full transition-all duration-300">Gallery</a>
+        <a href="/about" class="text-white font-semibold hover:text-[#32cd32] hover:bg-white hover:px-4 hover:py-2 rounded-full transition-all duration-300">About</a>
+        <a href="/blog" class="text-white font-semibold hover:text-[#32cd32] hover:bg-white hover:px-4 hover:py-2 rounded-full transition-all duration-300">Blog</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<script>
+  // Mobile menu toggle functionality
+  document.addEventListener('DOMContentLoaded', () => {
+    const menuButton = document.querySelector('button[aria-label="Toggle menu"]');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    menuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  });
+</script>
+
+<style>
+  @keyframes psychedelic {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+  }
+  
+  nav {
+    animation: psychedelic 10s infinite linear;
+  }
+</style>

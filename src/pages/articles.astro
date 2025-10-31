@@ -1,0 +1,141 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Articles - Quirk Chronicle" description="Dive into our collection of insightful articles exploring the extraordinary quirks of everyday human behavior. From subtle habits to profound insights, uncover what makes us uniquely human.">
+  <!-- Hero Section -->
+  <div class="relative overflow-hidden bg-[#2d3748]">
+    <div class="absolute inset-0 opacity-10" style="background: repeating-linear-gradient(45deg, #ff6b6b 0, #ff6b6b 1px, transparent 1px, transparent 10px);"></div>
+    <div class="container mx-auto px-4 py-24 md:py-32 relative z-10">
+      <div class="max-w-3xl">
+        <span class="text-[#ff6b6b] text-sm uppercase tracking-widest font-sans mb-4 block">Quirk Chronicle</span>
+        <h1 class="text-4xl md:text-6xl font-serif text-white mb-6 leading-tight">Articles</h1>
+        <p class="text-xl text-[#e2e8f0] font-sans max-w-2xl">Unveiling the Extraordinary in Everyday Human Behavior</p>
+      </div>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
+  </div>
+
+  <!-- Intro Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <div class="border-l-2 border-[#ff6b6b] pl-6 py-2 mb-12">
+        <p class="text-lg text-[#2d3748] font-serif italic">
+          Step into a world where the mundane meets the marvelous. Our articles peel back the layers of human quirks, offering fresh perspectives on the behaviors that define us.
+        </p>
+      </div>
+      
+      <div class="prose prose-lg max-w-none font-sans">
+        <p class="text-lg leading-relaxed text-[#4a5568]">
+          Whether it's the psychology behind procrastination or the joy in spontaneous acts of kindness, we're here to illuminate the hidden stories in daily life. Each piece is crafted to uncover the fascinating patterns that make us uniquely human.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Articles -->
+  <section class="py-20 bg-[#f7fafc]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-serif text-[#2d3748] mb-4">Featured Articles</h2>
+        <div class="w-20 h-1 bg-[#ff6b6b] mx-auto"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+        <!-- Article 1 -->
+        <article class="bg-white rounded-sm shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl border-t-4 border-[#ff6b6b]">
+          <div class="p-8">
+            <div class="flex items-center mb-4">
+              <span class="text-[#ff6b6b] mr-2"><i class="fas fa-feather-alt"></i></span>
+              <span class="text-sm uppercase tracking-wider text-[#718096] font-sans">Psychology</span>
+            </div>
+            <h3 class="text-2xl font-serif text-[#2d3748] mb-4 leading-tight">The Art of Daydreaming: Why Your Mind Wanders and What It Reveals</h3>
+            <p class="text-[#4a5568] font-sans mb-6">
+              In a fast-paced world, letting your thoughts drift isn't laziness—it's a gateway to creativity. Explore how daydreaming fuels innovation and personal growth.
+            </p>
+            <a href="#" class="text-[#ff6b6b] font-sans uppercase text-sm tracking-wider flex items-center hover:text-[#e53e3e] transition-colors">
+              Read Article
+              <i class="fas fa-arrow-right ml-2 text-xs"></i>
+            </a>
+          </div>
+        </article>
+        
+        <!-- Article 2 -->
+        <article class="bg-white rounded-sm shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl border-t-4 border-[#ff6b6b]">
+          <div class="p-8">
+            <div class="flex items-center mb-4">
+              <span class="text-[#ff6b6b] mr-2"><i class="fas fa-laugh"></i></span>
+              <span class="text-sm uppercase tracking-wider text-[#718096] font-sans">Science</span>
+            </div>
+            <h3 class="text-2xl font-serif text-[#2d3748] mb-4 leading-tight">Echoes of Laughter: The Science Behind Infectious Chuckles</h3>
+            <p class="text-[#4a5568] font-sans mb-6">
+              What makes us laugh until our sides hurt? Delve into the neurology of humor and discover why laughter is truly contagious.
+            </p>
+            <a href="#" class="text-[#ff6b6b] font-sans uppercase text-sm tracking-wider flex items-center hover:text-[#e53e3e] transition-colors">
+              Read Article
+              <i class="fas fa-arrow-right ml-2 text-xs"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+      
+      <div class="text-center mt-16">
+        <button class="bg-[#2d3748] text-white px-8 py-4 font-sans uppercase tracking-wider text-sm hover:bg-[#4a5568] transition-colors">
+          View All Articles
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quirks Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-serif text-[#2d3748] mb-4">Explore Human Quirks</h2>
+        <div class="w-20 h-1 bg-[#ff6b6b] mx-auto"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center p-6 border border-[#e2e8f0] hover:border-[#ff6b6b] transition-colors">
+          <div class="w-16 h-16 rounded-full bg-[#f7fafc] flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-brain text-2xl text-[#ff6b6b]"></i>
+          </div>
+          <h3 class="text-xl font-serif text-[#2d3748] mb-3">Psychological Patterns</h3>
+          <p class="text-[#4a5568] font-sans text-sm">Uncover the subconscious habits that drive our daily decisions.</p>
+        </div>
+        
+        <div class="text-center p-6 border border-[#e2e8f0] hover:border-[#ff6b6b] transition-colors">
+          <div class="w-16 h-16 rounded-full bg-[#f7fafc] flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-users text-2xl text-[#ff6b6b]"></i>
+          </div>
+          <h3 class="text-xl font-serif text-[#2d3748] mb-3">Social Quirks</h3>
+          <p class="text-[#4a5568] font-sans text-sm">Explore the fascinating behaviors we exhibit in groups.</p>
+        </div>
+        
+        <div class="text-center p-6 border border-[#e2e8f0] hover:border-[#ff6b6b] transition-colors">
+          <div class="w-16 h-16 rounded-full bg-[#f7fafc] flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-lightbulb text-2xl text-[#ff6b6b]"></i>
+          </div>
+          <h3 class="text-xl font-serif text-[#2d3748] mb-3">Creative Habits</h3>
+          <p class="text-[#4a5568] font-sans text-sm">Discover how unusual routines spark innovation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-[#2d3748] text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-serif mb-6">Join Our Community of Curious Minds</h2>
+      <p class="text-xl max-w-2xl mx-auto mb-10 font-sans text-[#e2e8f0]">
+        Get exclusive insights into human behavior and our latest discoveries delivered to your inbox.
+      </p>
+      <div class="max-w-md mx-auto flex">
+        <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 text-[#2d3748] rounded-l-sm focus:outline-none">
+        <button class="bg-[#ff6b6b] text-white px-6 py-3 font-sans uppercase tracking-wider hover:bg-[#e53e3e] transition-colors">
+          Subscribe
+        </button>
+      </div>
+    </div>
+  </section>
+</Layout>

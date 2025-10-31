@@ -1,0 +1,194 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Pet Toy Reviews - Fun Pet Toys Hub" description="Explore honest reviews of the best pet toys for dogs, cats, and more. Discover affiliate picks that bring joy to your furry friends with playful insights and recommendations.">
+  <!-- Hero Section -->
+  <div class="relative overflow-hidden bg-gradient-to-br from-emerald-50 to-amber-50 py-20">
+    <div class="absolute top-0 left-0 w-full h-full opacity-10">
+      <div class="absolute top-10 left-10 w-64 h-64 rounded-full bg-primary blur-3xl"></div>
+      <div class="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-accent blur-3xl"></div>
+    </div>
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="max-w-3xl mx-auto text-center">
+        <span class="inline-block px-4 py-1 mb-4 text-sm font-semibold text-primary bg-emerald-100 rounded-full">Trusted by Pet Parents</span>
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">Discover Joyful Pet Toy Reviews</h1>
+        <p class="text-xl text-gray-700 mb-10 max-w-2xl mx-auto">Find the perfect playtime essentials for your furry companions with our honest, playful, and expert-curated reviews.</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="#featured-reviews" class="px-8 py-3 bg-primary hover:bg-emerald-700 text-white font-medium rounded-full transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl">
+            Explore Reviews
+          </a>
+          <a href="#why-trust" class="px-8 py-3 bg-white border-2 border-primary text-primary font-medium rounded-full transition-all duration-300 hover:bg-primary hover:text-white">
+            Why Trust Us?
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Why Trust Section -->
+  <section id="why-trust" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Trust Our Reviews?</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">We're passionate pet parents who test every toy for durability, safety, and pure joy.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
+        <div class="bg-emerald-50 p-8 rounded-2xl text-center hover:shadow-lg transition-shadow duration-300 border border-emerald-100">
+          <div class="w-20 h-20 rounded-full bg-primary flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-heart text-2xl text-white"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Honest Opinions</h3>
+          <p class="text-gray-700">Real pet parents and experts test every toy for durability and delight before we recommend them to you.</p>
+        </div>
+        
+        <div class="bg-amber-50 p-8 rounded-2xl text-center hover:shadow-lg transition-shadow duration-300 border border-amber-100">
+          <div class="w-20 h-20 rounded-full bg-accent flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-handshake text-2xl text-white"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Affiliate Picks</h3>
+          <p class="text-gray-700">We partner with trusted brands, earning a small commission at no extra cost to you. Transparency matters!</p>
+        </div>
+        
+        <div class="bg-emerald-50 p-8 rounded-2xl text-center hover:shadow-lg transition-shadow duration-300 border border-emerald-100">
+          <div class="w-20 h-20 rounded-full bg-primary flex items-center justify-center mx-auto mb-6">
+            <i class="fas fa-paw text-2xl text-white"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Playful Focus</h3>
+          <p class="text-gray-700">From chew-resistant balls to interactive puzzles, we highlight what truly sparks joy for pets of all sizes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Reviews -->
+  <section id="featured-reviews" class="py-20 bg-gradient-to-b from-white to-emerald-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Featured Reviews</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">Handpicked toys that passed our rigorous playtesting sessions with real pets</p>
+      </div>
+      
+      <div class="max-w-4xl mx-auto">
+        <!-- Review Card -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-xl mb-12 border border-emerald-100 hover:border-primary transition-colors duration-300">
+          <div class="md:flex">
+            <div class="md:w-2/5 bg-gradient-to-br from-primary to-emerald-600 p-10 flex flex-col justify-center">
+              <span class="inline-block px-4 py-1 text-sm font-semibold text-emerald-800 bg-emerald-100 rounded-full mb-6 w-max">Top Pick for Dogs</span>
+              <h3 class="text-2xl font-bold text-white mb-4">The Indestructible Fetch Ball</h3>
+              <div class="mt-4">
+                <div class="flex text-amber-400 mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="text-emerald-100 italic">"This ball bounces like magic and survives even the toughest chewers!"</p>
+              </div>
+            </div>
+            <div class="md:w-3/5 p-10">
+              <div class="prose prose-emerald max-w-none">
+                <h4 class="text-xl font-bold text-gray-900 mb-3">What Makes It Special</h4>
+                <ul class="space-y-2 mb-6">
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-primary mt-1 mr-3"></i>
+                    <span>Ultra-durable rubber that withstands aggressive chewing</span>
+                  </li>
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-primary mt-1 mr-3"></i>
+                    <span>Predictable bounce pattern for safe fetch games</span>
+                  </li>
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-primary mt-1 mr-3"></i>
+                    <span>Floating design perfect for water-loving pups</span>
+                  </li>
+                  <li class="flex items-start">
+                    <i class="fas fa-check-circle text-primary mt-1 mr-3"></i>
+                    <span>Non-toxic materials safe for continuous play</span>
+                  </li>
+                </ul>
+                
+                <div class="flex flex-wrap gap-4">
+                  <a href="#" class="px-6 py-3 bg-primary hover:bg-emerald-700 text-white font-medium rounded-full transition-colors duration-300">
+                    Read Full Review
+                  </a>
+                  <a href="#" class="px-6 py-3 bg-amber-100 hover:bg-amber-200 text-amber-800 font-medium rounded-full transition-colors duration-300">
+                    Check Price <i class="fas fa-arrow-right ml-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Upcoming Reviews Preview -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-gradient-to-br from-amber-50 to-white border border-amber-100 rounded-2xl p-8 hover:shadow-md transition-shadow">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center mr-4">
+                <i class="fas fa-cat text-amber-600"></i>
+              </div>
+              <h3 class="text-xl font-bold text-gray-900">Interactive Cat Puzzle</h3>
+            </div>
+            <p class="text-gray-700 mb-4">Engages curious cats with treat-dispensing challenges and unpredictable movements.</p>
+            <span class="inline-block px-3 py-1 text-xs font-semibold text-amber-800 bg-amber-100 rounded-full">Coming Next Week</span>
+          </div>
+          
+          <div class="bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 rounded-2xl p-8 hover:shadow-md transition-shadow">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center mr-4">
+                <i class="fas fa-feather-alt text-emerald-600"></i>
+              </div>
+              <h3 class="text-xl font-bold text-gray-900">Bird Teaser Wand</h3>
+            </div>
+            <p class="text-gray-700 mb-4">Feather attachments mimic natural prey for stimulating exercise and play.</p>
+            <span class="inline-block px-3 py-1 text-xs font-semibold text-emerald-800 bg-emerald-100 rounded-full">Coming Soon</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-primary to-emerald-600">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Join Our Playful Community</h2>
+      <p class="text-xl text-emerald-100 mb-10 max-w-2xl mx-auto">Get exclusive access to new reviews, special discounts, and pet care tips delivered straight to your inbox!</p>
+      
+      <form class="max-w-xl mx-auto flex flex-col sm:flex-row gap-4">
+        <input 
+          type="email" 
+          placeholder="Your email address" 
+          class="flex-grow px-6 py-4 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-400"
+          required
+        />
+        <button 
+          type="submit" 
+          class="px-8 py-4 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-full transition-colors duration-300 whitespace-nowrap"
+        >
+          Subscribe Now
+        </button>
+      </form>
+      
+      <p class="text-emerald-100 text-sm mt-4">No spam, ever. Unsubscribe anytime.</p>
+    </div>
+  </section>
+  
+  <!-- Testimonial -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-emerald-100 text-primary mb-6">
+          <i class="fas fa-quote-right text-3xl"></i>
+        </div>
+        <blockquote class="text-2xl md:text-3xl font-medium text-gray-900 mb-8 italic">
+          "Thanks to Fun Pet Toys Hub, I finally found a toy that keeps my rescue pup entertained for hours without destroying my wallet... or my slippers!"
+        </blockquote>
+        <div class="font-bold text-gray-900">— Sarah K., Proud Dog Mom</div>
+        <div class="text-gray-600">Verified Reviewer</div>
+      </div>
+    </div>
+  </section>
+</Layout>

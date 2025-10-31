@@ -1,0 +1,229 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Gallery of Eccentric Echoes" description="Dive into a vibrant collection of psychedelic futurism artwork that captures the quirky essence of human nature with humor and insight. Explore visuals that blend surrealism, technology, and wit.">
+  <!-- Hero Section -->
+  <div class="relative overflow-hidden bg-gradient-to-br from-purple-900 via-indigo-800 to-violet-900 py-20 md:py-32">
+    <div class="absolute inset-0 opacity-20">
+      <div class="absolute top-0 left-1/4 w-96 h-96 bg-accent rounded-full filter blur-[100px] animate-pulse"></div>
+      <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-primary rounded-full filter blur-[100px] animate-pulse"></div>
+    </div>
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="max-w-3xl mx-auto text-center">
+        <span class="inline-block px-4 py-1 mb-4 text-sm font-bold text-accent bg-black bg-opacity-30 rounded-full backdrop-blur-sm">
+          <i class="fas fa-sparkles mr-2"></i> PSYCHEDELIC FUTURISM
+        </span>
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+          Gallery of <span class="text-accent">Eccentric</span> Echoes
+        </h1>
+        <p class="text-xl text-purple-200 mb-8 max-w-2xl mx-auto">
+          Unveiling the Wild Side of Human Quirks with Humor and Insight
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <button class="px-8 py-3 bg-accent text-black font-bold rounded-full hover:bg-opacity-90 transition-all transform hover:scale-105 shadow-lg shadow-accent/30">
+            <i class="fas fa-rocket mr-2"></i> Explore Gallery
+          </button>
+          <button class="px-8 py-3 bg-white bg-opacity-10 text-white font-bold rounded-full backdrop-blur-sm border border-white border-opacity-20 hover:bg-opacity-20 transition-all">
+            <i class="fas fa-eye mr-2"></i> View Latest
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Intro Section -->
+  <section class="py-16 bg-gradient-to-b from-violet-900 to-purple-900">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="inline-block p-1 bg-gradient-to-r from-primary to-accent rounded-full mb-6">
+          <div class="bg-purple-900 rounded-full px-6 py-2">
+            <h2 class="text-2xl font-bold text-white">
+              <i class="fas fa-mind-share mr-3"></i> Enter the Kaleidoscope
+            </h2>
+          </div>
+        </div>
+        <div class="prose prose-lg max-w-none text-purple-100 mx-auto">
+          <p class="text-lg leading-relaxed">
+            Welcome to the <span class="text-accent font-bold">Eccentric Echoes</span> gallery, where the boundaries of reality dissolve into a kaleidoscope of psychedelic futurism. Here, we unveil the wild side of human quirks through mesmerizing visuals that fuse humor, insight, and otherworldly aesthetics.
+          </p>
+          <p class="mt-4 text-lg leading-relaxed">
+            Each piece in our collection represents a journey into the absurd, beautiful, and profound corners of the human experience – reimagined through the lens of tomorrow's possibilities.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Collections -->
+  <section class="py-20 bg-gradient-to-b from-purple-900 to-indigo-900">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+          Featured <span class="text-accent">Collections</span>
+        </h2>
+        <div class="w-24 h-1 bg-accent mx-auto rounded-full"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Collection 1 -->
+        <div class="bg-gradient-to-br from-violet-800 to-purple-900 rounded-2xl overflow-hidden border border-purple-700 shadow-xl transform transition-all hover:scale-[1.02] hover:shadow-2xl">
+          <div class="p-1 bg-gradient-to-r from-primary to-accent">
+            <div class="bg-purple-900 h-full p-6">
+              <div class="w-12 h-12 rounded-full bg-accent flex items-center justify-center mb-4">
+                <i class="fas fa-user-astronaut text-black text-xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-white mb-3">Quirky Portraits</h3>
+              <p class="text-purple-200 mb-4">
+                <span class="text-accent font-bold">Surreal depictions</span> of everyday eccentrics reimagined in neon-lit futures. From the procrastinator lost in a wormhole of clocks to the daydreamer piloting a thought-ship through cosmic clouds.
+              </p>
+              <button class="mt-4 px-4 py-2 bg-white bg-opacity-10 text-white rounded-lg hover:bg-opacity-20 transition-all flex items-center">
+                Explore Collection <i class="fas fa-arrow-right ml-2 text-accent"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Collection 2 -->
+        <div class="bg-gradient-to-br from-violet-800 to-purple-900 rounded-2xl overflow-hidden border border-purple-700 shadow-xl transform transition-all hover:scale-[1.02] hover:shadow-2xl">
+          <div class="p-1 bg-gradient-to-r from-primary to-accent">
+            <div class="bg-purple-900 h-full p-6">
+              <div class="w-12 h-12 rounded-full bg-accent flex items-center justify-center mb-4">
+                <i class="fas fa-rocket text-black text-xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-white mb-3">Humor in Hyperspace</h3>
+              <p class="text-purple-200 mb-4">
+                Bold, vibrant illustrations satirizing modern quirks. Imagine social media addicts trapped in infinite scroll black holes or coffee-fueled inventors sparking chaotic dimensions.
+              </p>
+              <button class="mt-4 px-4 py-2 bg-white bg-opacity-10 text-white rounded-lg hover:bg-opacity-20 transition-all flex items-center">
+                Explore Collection <i class="fas fa-arrow-right ml-2 text-accent"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Collection 3 -->
+        <div class="bg-gradient-to-br from-violet-800 to-purple-900 rounded-2xl overflow-hidden border border-purple-700 shadow-xl transform transition-all hover:scale-[1.02] hover:shadow-2xl">
+          <div class="p-1 bg-gradient-to-r from-primary to-accent">
+            <div class="bg-purple-900 h-full p-6">
+              <div class="w-12 h-12 rounded-full bg-accent flex items-center justify-center mb-4">
+                <i class="fas fa-brain text-black text-xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-white mb-3">Insightful Visions</h3>
+              <p class="text-purple-200 mb-4">
+                Deeper dives into the human psyche through surreal narratives. Exploring the digital dreams and existential dilemmas of tomorrow's humans navigating a world of impossible possibilities.
+              </p>
+              <button class="mt-4 px-4 py-2 bg-white bg-opacity-10 text-white rounded-lg hover:bg-opacity-20 transition-all flex items-center">
+                Explore Collection <i class="fas fa-arrow-right ml-2 text-accent"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Preview -->
+  <section class="py-20 bg-gradient-to-b from-indigo-900 to-violet-900">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+          Recent <span class="text-accent">Eccentric Echoes</span>
+        </h2>
+        <p class="text-purple-200 max-w-2xl mx-auto">
+          A glimpse into our latest creations that blend humor, insight, and psychedelic futurism
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Gallery Item 1 -->
+        <div class="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-purple-800 to-indigo-900 border border-purple-700">
+          <div class="aspect-square flex items-center justify-center p-4">
+            <div class="bg-gradient-to-r from-primary to-accent w-full h-full rounded-xl opacity-70 group-hover:opacity-90 transition-all"></div>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-80"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-4">
+            <h3 class="text-white font-bold text-lg">Procrastinator's Paradox</h3>
+            <p class="text-purple-200 text-sm">Lost in time loops</p>
+          </div>
+          <div class="absolute top-4 right-4 w-10 h-10 rounded-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            <i class="fas fa-expand text-white"></i>
+          </div>
+        </div>
+
+        <!-- Gallery Item 2 -->
+        <div class="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-purple-800 to-indigo-900 border border-purple-700">
+          <div class="aspect-square flex items-center justify-center p-4">
+            <div class="bg-gradient-to-r from-accent to-primary w-full h-full rounded-xl opacity-70 group-hover:opacity-90 transition-all"></div>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-80"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-4">
+            <h3 class="text-white font-bold text-lg">Social Media Vortex</h3>
+            <p class="text-purple-200 text-sm">Trapped in infinity scrolls</p>
+          </div>
+          <div class="absolute top-4 right-4 w-10 h-10 rounded-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            <i class="fas fa-expand text-white"></i>
+          </div>
+        </div>
+
+        <!-- Gallery Item 3 -->
+        <div class="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-purple-800 to-indigo-900 border border-purple-700">
+          <div class="aspect-square flex items-center justify-center p-4">
+            <div class="bg-gradient-to-r from-purple-600 to-indigo-700 w-full h-full rounded-xl opacity-70 group-hover:opacity-90 transition-all"></div>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-80"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-4">
+            <h3 class="text-white font-bold text-lg">Dream Navigator</h3>
+            <p class="text-purple-200 text-sm">Sailing through thoughts</p>
+          </div>
+          <div class="absolute top-4 right-4 w-10 h-10 rounded-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            <i class="fas fa-expand text-white"></i>
+          </div>
+        </div>
+
+        <!-- Gallery Item 4 -->
+        <div class="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-purple-800 to-indigo-900 border border-purple-700">
+          <div class="aspect-square flex items-center justify-center p-4">
+            <div class="bg-gradient-to-r from-indigo-700 to-violet-800 w-full h-full rounded-xl opacity-70 group-hover:opacity-90 transition-all"></div>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-80"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-4">
+            <h3 class="text-white font-bold text-lg">Coffee Dimension</h3>
+            <p class="text-purple-200 text-sm">Caffeine-powered realities</p>
+          </div>
+          <div class="absolute top-4 right-4 w-10 h-10 rounded-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+            <i class="fas fa-expand text-white"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-12">
+        <button class="px-8 py-3 bg-gradient-to-r from-primary to-accent text-black font-bold rounded-full hover:opacity-90 transition-all transform hover:scale-105 shadow-lg shadow-accent/30">
+          <i class="fas fa-infinity mr-2"></i> View Full Gallery
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-primary to-purple-800">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+          Ready to Explore the <span class="text-black">Eccentric Universe</span>?
+        </h2>
+        <p class="text-purple-100 text-xl mb-8 max-w-2xl mx-auto">
+          Join our community of visionaries and get exclusive access to new artwork drops
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <button class="px-8 py-4 bg-black text-white font-bold rounded-full hover:bg-opacity-90 transition-all transform hover:scale-105 flex items-center justify-center">
+            <i class="fas fa-user-plus mr-2"></i> Join the Echo Collective
+          </button>
+          <button class="px-8 py-4 bg-white bg-opacity-10 text-white font-bold rounded-full backdrop-blur-sm border border-white border-opacity-20 hover:bg-opacity-20 transition-all flex items-center justify-center">
+            <i class="fas fa-download mr-2"></i> Download Art Pack
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

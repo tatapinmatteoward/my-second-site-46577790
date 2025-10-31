@@ -1,0 +1,106 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Contact Us" description="Get in touch with Quirk Chronicle to share your stories, collaborate, or inquire about our exploration of everyday human quirks. We're here to connect.">
+  <!-- Hero Section -->
+  <div class="relative bg-[#2d3748] py-20 overflow-hidden">
+    <div class="absolute inset-0 opacity-5" style="background: 
+      radial-gradient(circle at 10% 20%, #ff6b6b 0%, transparent 20%),
+      radial-gradient(circle at 90% 80%, #ff6b6b 0%, transparent 20%);"></div>
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="max-w-3xl mx-auto text-center">
+        <span class="text-[#ff6b6b] text-sm uppercase tracking-widest font-sans mb-4 block">Get in Touch</span>
+        <h1 class="text-4xl md:text-6xl font-serif font-bold text-white mb-6">Contact Us</h1>
+        <p class="text-xl text-gray-200 font-sans max-w-2xl mx-auto">
+          Share your stories, collaborate, or inquire about our exploration of everyday human quirks
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto">
+        <div class="prose prose-lg max-w-none mb-16">
+          <p class="text-lg text-[#2d3748] font-sans">
+            At <em>Quirk Chronicle</em>, we celebrate the unusual and the ordinary alike. Whether you have a peculiar tale to share, a collaboration idea, or simply a question about our vintage-inspired insights into human behavior, we'd love to hear from you.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Email Card -->
+          <div class="bg-gray-50 p-8 border-l-4 border-[#ff6b6b] hover:shadow-lg transition-all duration-300">
+            <div class="mb-4">
+              <i class="fas fa-envelope text-3xl text-[#ff6b6b]"></i>
+            </div>
+            <h3 class="text-xl font-serif font-bold text-[#2d3748] mb-3">Email</h3>
+            <p class="text-gray-600 mb-4">Drop us a line for editorial submissions, partnerships, or general inquiries.</p>
+            <a href="mailto:hello@quirkchronicle.com" class="text-[#ff6b6b] hover:underline font-medium">hello@quirkchronicle.com</a>
+          </div>
+
+          <!-- Social Media Card -->
+          <div class="bg-gray-50 p-8 border-l-4 border-[#ff6b6b] hover:shadow-lg transition-all duration-300">
+            <div class="mb-4">
+              <i class="fas fa-hashtag text-3xl text-[#ff6b6b]"></i>
+            </div>
+            <h3 class="text-xl font-serif font-bold text-[#2d3748] mb-3">Social Media</h3>
+            <p class="text-gray-600 mb-4">Follow and message us to join the conversation.</p>
+            <div class="flex space-x-4">
+              <a href="https://twitter.com/quirkchronicle" class="text-[#ff6b6b] hover:text-[#2d3748] transition-colors">
+                <i class="fab fa-twitter text-xl"></i>
+              </a>
+              <a href="https://instagram.com/quirkchronicle" class="text-[#ff6b6b] hover:text-[#2d3748] transition-colors">
+                <i class="fab fa-instagram text-xl"></i>
+              </a>
+              <a href="https://facebook.com/quirkchronicle" class="text-[#ff6b6b] hover:text-[#2d3748] transition-colors">
+                <i class="fab fa-facebook text-xl"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Address Card -->
+          <div class="bg-gray-50 p-8 border-l-4 border-[#ff6b6b] hover:shadow-lg transition-all duration-300">
+            <div class="mb-4">
+              <i class="fas fa-map-marker-alt text-3xl text-[#ff6b6b]"></i>
+            </div>
+            <h3 class="text-xl font-serif font-bold text-[#2d3748] mb-3">Mailing Address</h3>
+            <address class="text-gray-600 not-italic">
+              Quirk Chronicle Publishing<br />
+              123 Vintage Lane<br />
+              Eccentric City, EC 12345
+            </address>
+          </div>
+        </div>
+
+        <div class="mt-16 bg-[#2d3748] text-white p-8 md:p-12">
+          <div class="flex flex-col md:flex-row items-center">
+            <div class="mb-6 md:mb-0 md:mr-8">
+              <i class="fas fa-clock text-4xl text-[#ff6b6b]"></i>
+            </div>
+            <div class="text-center md:text-left">
+              <h3 class="text-2xl font-serif font-bold mb-2">Response Time</h3>
+              <p class="text-gray-200 max-w-xl">
+                We respond to all messages within 48 hours. Your quirks matter to us, and we're excited to hear what makes you uniquely human.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-[#2d3748] to-[#1a202c]">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-serif font-bold text-white mb-6">Share Your Quirks</h2>
+      <p class="text-gray-300 max-w-2xl mx-auto mb-10 text-lg">
+        Have an unusual habit or peculiar story? We're always looking for fascinating human behaviors to feature in our next issue.
+      </p>
+      <a href="mailto:hello@quirkchronicle.com" class="inline-block bg-[#ff6b6b] text-white font-sans font-bold py-3 px-8 rounded-full hover:bg-[#ff5252] transition-colors duration-300 transform hover:-translate-y-1">
+        Submit Your Story
+      </a>
+    </div>
+  </section>
+</Layout>
